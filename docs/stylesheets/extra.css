@@ -1,0 +1,7 @@
+/* Show Footnote markers as [] instead of ¹. This is for Citations. Normal Footnotes no longer Work!!! */
+.md-typeset sup[id^="fnref:"] {
+  vertical-align: baseline;
+  font-size: inherit;
+}
+.md-typeset sup[id^="fnref:"] .footnote-ref::before { content: "["; }
+.md-typeset sup[id^="fnref:"] .footnote-ref::after  { content: "]"; }

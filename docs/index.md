@@ -1,7 +1,7 @@
 # Research Progress
 
-This page documents the research progress of Master's research in the Urban and Transportation Planning Lab at the Hiroshima University 
-under the guidance of Prof. Makoto Chikaraishi.
+This page documents the progress of my master's research at the Urban and Transportation Planning Laboratory at Hiroshima University, under the supervision of Professor Makoto Chikaraishi.
 
-The research title is: <br>
+## Research Title
+
 **Simulating Evacuation Traffic with Reinforcement Learning**

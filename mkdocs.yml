@@ -55,6 +55,7 @@ exclude_docs: |
   readme.md 
 
 markdown_extensions:
+  - footnotes
   - admonition
   - attr_list
   - md_in_html
@@ -68,3 +69,14 @@ markdown_extensions:
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+  #WATCH OUT!!! This stops working in MkDocs 2 so only use MkDocs 1
+plugins:
+- search
+- bibtex:
+    bib_file: "docs/assets/bibliography/refs.bib"
+    csl_file: "docs/assets/bibliography/ieee.csl"   # optional, sets the citation style
+    enable_inline_citations: false
