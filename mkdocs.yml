@@ -6,7 +6,7 @@ repo_url: https://github.com/MorschTom/MorschTom.github.io
 # Edit for Navigation
 ##############################################################
 nav:
-  - Home: home.md
+  - Home: index.md
   - Research Proposal: researchProposal.md
   #- Weekly Reports:
   #    - reports/
