@@ -1,0 +1,70 @@
+site_name: Research Progress
+site_url: https://MorschTom.github.io/docu/
+repo_url: https://github.com/MorschTom/MorschTom.github.io
+
+##############################################################
+# Edit for Navigation
+##############################################################
+nav:
+  - Home: home.md
+  - Research Proposal: researchProposal.md
+  - Weekly Reports:
+      - reports/
+  # reserved for later use 
+  #- Presentations: 
+      #- presentation/
+
+##############################################################
+# Setting up the Webpage
+##############################################################
+
+theme:
+  name: material
+  language: en 
+
+  icon: 
+    logo: material/file-document
+  
+  palette: 
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.path
+    - search.highlight
+    - content.code.copy
+
+exclude_docs: |
+  readme.md 
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
