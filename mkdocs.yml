@@ -9,7 +9,7 @@ nav:
   - Home: home.md
   - Research Proposal: researchProposal.md
   - Weekly Reports:
-      - reports/
+  #    - reports/
   # reserved for later use 
   #- Presentations: 
       #- presentation/
