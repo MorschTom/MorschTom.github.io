@@ -53,6 +53,7 @@ theme:
 
 exclude_docs: |
   readme.md 
+  reports/blueprint.md
 
 markdown_extensions:
   - footnotes
