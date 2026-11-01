@@ -8,8 +8,8 @@ repo_url: https://github.com/MorschTom/MorschTom.github.io
 nav:
   - Home: index.md
   - Research Proposal: researchProposal.md
-  #- Weekly Reports:
-  #    - reports/
+  - Weekly Reports:
+      - reports/2026-11-02_Meeting-Report.md
   # reserved for later use 
   #- Presentations: 
       #- presentation/
