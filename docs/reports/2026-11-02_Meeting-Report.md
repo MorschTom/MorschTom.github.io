@@ -37,7 +37,7 @@ Since the Last meeting, I skimmed through the literature and analyzed 3 papers t
 - I went through my paper stack and investigated the top 3 papers
 - Topics of the Papers 
   - [Marl for Evacuation](2026-11-02-Files/MARL_For_Evacuation.md)
-  - [Marl for Tsunami Evacuation](2026-11-02-Files/MARL_For_Evacuation.md)
+  - [Marl for Tsunami Evacuation](2026-11-02-Files/MARL_For_Tsunami_Evacuation.md)
   - [Short Term Traffic Prediction](2026-11-02-Files/Short-Term-Traffic_Prediction.md)
   - These papers have in common, that they do not consider "realistic" crowd behavior (panic, non obedience, habits) and evacuation strategies. Instead they focus on the policy adapted by rl. The last paper is not for simulations
   - 
