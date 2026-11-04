@@ -109,6 +109,37 @@ However, I also have not read a lot to this point.
 
 <!-- Note these during or right after the meeting so they can be matched against "What I did" in the next document. -->
 
-- [ ] 
-- [ ] 
-- [ ] 
+- Find and read papers discussing evacuation problems in general
+- Find and read papers discussing state of the art simulation systems
+- Discuss a link between evacuation problem and simulation
+- Reason the best simulation method to solve the simulation problem
+
+### Reports
+<!--
+Evacuation
+
+
+Find problem that needs explaining, basic paper is enough
+Focus on the transport aspect
+Find a connection to transport (Also in people behavior)
+then find connection to simulation 
+So, not much on evacuation, just basic problem
+
+
+Simulation
+
+focus here, give current simulation practices, problems in these practices (Maybe also why rl is better)
+Search on current states in simulation common problems
+
+specify simulation model that fits that problem
+Find out what kind of simulation are there (stochastic model (DP, MDP), Graph...)
+do you want to full model using MDP, or do you want to go to RL? What is better? (Speed vs interpretability)
+RL uses blackbox, fast but not interpretability
+flip POV, how can you interpret RL model search economics paper
+Convince other about your choice model.
+
+Error terms for RL vs MDP
+
+Other Possible Gaps
+Disaster Modeling (How to model a disaster in SUMO/Matsim other simulation frameworks...)
+How to crystalize the disruptions on raods -->
