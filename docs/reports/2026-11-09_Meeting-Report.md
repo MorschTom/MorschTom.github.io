@@ -40,15 +40,15 @@
 ### What I did
 
 - scanning literature for research gaps, mostly Adam J. Pel 2011 and Razan Y. Aldahlawi 2024
-- Common research gaps are
-  - Considering household chaining while evacuating
-  - Dynamic destination choice is rarely explored
-  - Impact of shadow evacuees and their compliance on overall evacuation results
-  - Few studies incorporate human behavior findings like familiarity in routes etc into their studies.
-  - modeling of compliance of evacuees is mostly not explored
-  - input of behavior science into vehicle simulations
-  - dynamic generators of uncertain conditions are mostly overlooked
-  - Impact of information availability and situational awareness are understudied
+- Brainstorming for Research Gaps
+    - Considering household chaining while evacuating
+    - Dynamic destination choice is rarely explored
+    - Impact of shadow evacuees and their compliance on overall evacuation results
+    - Few studies incorporate human behavior findings like familiarity in routes etc into their studies.
+    - modeling of compliance of evacuees is mostly not explored
+    - input of behavior science into vehicle simulations
+    - dynamic generators of uncertain conditions are mostly overlooked
+    - Impact of information availability and situational awareness are understudied
 - personal favorite of research gaps is Household Chaining
   
 ### What I could not do / What is delayed
@@ -63,20 +63,48 @@
 <!-- For each item in Section 1, write your current thinking. -->
 <!-- It does not need to be correct — the *process* of thinking is what matters. -->
 <!-- Use prose where bullet points alone are insufficient. -->
+**Current thought**: 
 
-- **Current thought**: Research Gap that is often mentioned is dynamic goal routing and household goal chaining. This is when people with cars go to get their relatives from e.g. work or school during an evacuation. This gap can be promising for simulation and comparison for what is already there, as it could be possible treated like a "shortest path problem" with dynamic goals.
-  - Optimizing route and destination choices for households during evacuations considering car availability, destination chaining and evacuation success rate
-  - investigating changes in evacuation routes based on destination chaining and evolving disaster conditions
-  - Simulating destination choice updating for destination chaining using route choice models accounting en-route information acquisition during evacuations
-  - Also possible connection to RL: optimizing and comparing RL to regular destination chaining algorithms in terms of accuracy and interpretability
-  - Also possible connection to TD estimation, especially with en route information collection (dynamic disaster conditions...), and rerouting or dynamic goal switching.
-- **Alternatives I considered**: Impact of shadow evacuations on evacuation conditions and success
-  - Simulating shadow evacuations and compliance rates with free agent routing (instead of fastest path), but haven't payed much attention to that matter
+- Research Gap that is often mentioned is dynamic goal routing and household goal chaining. This is when people with cars go to get their relatives from e.g. work or school during an evacuation. This gap can be promising for simulation and comparison for what is already there, as it could be possible treated like a "shortest path problem" with dynamic goals. Further studies of literature must be conducted to verify this gap.
+  
+- Brainstorming for outline Research Objectives
+    - Optimizing route and destination choices for households during evacuations considering car availability, destination chaining and evacuation success rate
+    - investigating changes in evacuation routes based on destination chaining and evolving disaster conditions
+    - Simulating destination choice updating for destination chaining using route choice models accounting en-route information acquisition during evacuations
+    - Also possible connection to RL: optimizing and comparing RL to regular destination chaining algorithms in terms of accuracy and interpretability
+    - Also possible connection to TD estimation, especially with en route information collection (dynamic disaster conditions...), and rerouting or dynamic goal switching.
+
+### Rough Idea for State Model
+
+A tentative example of how the state for this problem could be modeled is given in the following graph.
+This graph is simplistic. It is intended to be implemented with microsimulation.
+
+```mermaid
+flowchart TB
+    A([A: Wifes Office])
+    B([B: Kid's School])
+    C[ C: House / Husband Car ist available]
+    D([D: Evacuation Shelter])
+
+    A ---|11 min : LOW RISK| B
+    A ---|13 min : LOW RISK| C
+    C ---|10 min : MID RISK| B
+    B ---|14 min : MID RISK| D
+    C -.-|12 min : HIGH RISK| D
+
+```
+  
+**Alternatives I considered**: 
+
+- Impact of shadow evacuations on evacuation conditions and success
+    - Simulating shadow evacuations and compliance rates with free agent routing (instead of fastest path), but haven't payed much attention to that matter
 
 ## Action Items for Next Meeting (fill in after the meeting)
 
 <!-- Note these during or right after the meeting so they can be matched against "What I did" in the next document. -->
 
-- [ ] 
-- [ ] 
-- [ ] 
+- Look into trip chaining for households, verify the research gap and check the environment that needs to be set
+- learn the methodology used by papers in that category and how to apply them to this topic
+- Define the Objective into wording. (~ end of November)
+- build a playground schematic for the environment and simulation
+- Check how / if TD Estimation can be integrated into this research scheme
