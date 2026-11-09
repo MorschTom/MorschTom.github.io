@@ -108,3 +108,16 @@ flowchart TB
 - Define the Objective into wording. (~ end of November)
 - build a playground schematic for the environment and simulation
 - Check how / if TD Estimation can be integrated into this research scheme
+
+## References
+
+Pel, A.J., Bliemer, M.C.J. & Hoogendoorn, S.P. A review on travel behaviour modelling in dynamic traffic simulation models for evacuations. Transportation 39, 97–123 (2012). [10.1007/s11116-011-9320-6](https://doi.org/10.1007/s11116-011-9320-6)
+
+Razan Y. Aldahlawi, Vahid Akbari, Glyn Lawson,
+A systematic review of methodologies for human behavior modelling and routing optimization in large-scale evacuation planning,
+International Journal of Disaster Risk Reduction,
+Volume 110,
+2024,
+104638,
+ISSN 2212-4209,
+[10.1016/j.ijdrr.2024.104638](https://doi.org/10.1016/j.ijdrr.2024.104638)
