@@ -28,10 +28,10 @@ This time scheduled is designed to be expanded in the future.
 
 | Due | Meeting No | Task | description |
 | :-: | :--------: | :--- | :---------- |
-| 11/16 | 4 | verify the research gap | perform further literature review (starting point: Murray-Tuite and Mahmassani 2003, 2004). |
 | 11/16 | 4 | analyze the methodology for modeling household chaining | analyze mainly the papers from Murray-Tuite and Mahmassani 2003, 2004. |
+| 11/23 | 5 | verify the research gap | perform further literature review (starting point: Murray-Tuite and Mahmassani 2003, 2004). |
 | 11/23 | 5 | Outline for playground | define an outline for a playground schematic the simulation and environment can be based on. |
-| 11/23 | 5 | small literature review | perform literature review on reinforcement learning and agent based simulation methods to specify the research objective |
+| 11/30 | 6 | small literature review | perform literature review on reinforcement learning and agent based simulation methods to specify the research objective |
 | 11/30 | 6 | Define the research objective | Use the insights from previous tasks to formulate the research objective into proper wording |
 | 12/02 | | Presentation | prepare seminar presentation |
 | 12/7 | 7 | Check the TD-Estimation | Do another literature review to check if or how TD-Estimation can be incorporated into this research scheme. |
