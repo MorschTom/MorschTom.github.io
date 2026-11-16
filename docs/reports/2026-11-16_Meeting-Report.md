@@ -85,6 +85,7 @@ $$
 - 5 Test Groups (1-2 Drivers, 1-3 Children, 1-3 Pickup locations)
 
 **System State**
+
 - No Formal System State, implicitly defined through inputs
 - Network State
     - Travel times calculated on everyday traffic times are used as perceived travel times.
@@ -121,6 +122,16 @@ Tentative results as follows:
 - Stated, that en route routing of pickups and communication is still open research question (Pel et al.)
 
 ## Discussion Results
+
+- Digital Table of Papers in that area
+    - notes on environments and system states
+- after presentation divide tasks for 0.5 project
+- For me more focus on research, but go back and forth between literature and implementation
+- Big Gap for us is the Environment and Big Objective Like otimizing travel time, evacuation success...
+- After presentation review on RL-Itself (states ...)
+- [RL Course](https://www.youtube.com/watch?v=2pWv7GOvuf0)
+- After presentation, talk in one meeting about this course
+- [RL Course Materials](https://davidstarsilver.wordpress.com/teaching/)
 
 ## References
 
