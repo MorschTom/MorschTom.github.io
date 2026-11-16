@@ -43,7 +43,7 @@ This time scheduled is designed to be expanded in the future.
 
 two sequential linear integer program with a dynamic traffic assignment-simulation tool (DYNASMART-P)
 
-Simulation is done in 3 steps
+Simulation is done in 4 steps
 
 1. Calculate expected travel time to the destination using k-shortest-path algorithm
 2. Calculate a optimal meeting location with a linear Integer program for all household members with car. Goal is to minimize the maximum travel time for each member.
@@ -54,7 +54,7 @@ Simulation is done in 3 steps
           - constraints are the maximum perceived travel time for every meeting location, only one location, maximum distance to every member and minimum distance to disaster zone
           - The meeting location determined by this is used to compute vehicle routing
 
-**Second Linear Integer Program solves a vehicle routing problem.**
+**3. Second Linear Integer Program solves a vehicle routing problem.**
 
 - vehicle routing problem is formulated as a traveling salesman problem
     - People with vehicles are salesmen, people without vehicles are customers
@@ -78,7 +78,7 @@ $$
 - Also optimizes the amounts of vehicles in the network at the same time with a similar formulation.
 - The results of this program are fed into travel simulation.
 
-**Travel simulation with DYNASMART-P. Drivers may resequence en route. But The second Linear Integer Program is not rerun.**
+**4. Travel simulation with DYNASMART-P. Drivers may resequence en route. But The second Linear Integer Program is not rerun.**
 
 - Not specific, just uses routing from the simulation environment. New strategy is not developed, just adjustments to the route using real time information
 - Test Network is in Texas, south-central Fort Worth
